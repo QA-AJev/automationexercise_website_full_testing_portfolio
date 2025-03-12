@@ -7,7 +7,6 @@ before(() => {
     cy.url().should('eq', 'https://automationexercise.com/');
     cy.get('body').should('be.visible');
 
-    // Use `then()` to ensure the user data is available before moving on
     cy.loadUserWithDynamicEmail().then((userData) => {
         user = userData;
     });
@@ -67,7 +66,7 @@ describe('Test Case 14: Place Order and Delete Account', () => {
         cy.get('a[data-qa="continue-button"]').click();
 
         cy.deleteUserAccount();
-        cy.get('a[data-qa="continue-button"]').click();
+        cy.contains('Signup / Login').should('be.visible');
         cy.log('Test case 14 completed.')
     });
 

@@ -1,5 +1,3 @@
-
-
 /// <reference types="cypress" />
 before(() => {
     cy.visit('https://automationexercise.com/');

@@ -1,13 +1,10 @@
-
-
 /// <reference types="cypress" />
+before(() => {
+    cy.visit('https://automationexercise.com/');
+    cy.url().should('eq', 'https://automationexercise.com/');
+    cy.get('body').should('be.visible');
+});
 it('Test Case 7: Verify Test Cases Page', () => {
-
-    before(() => {
-        cy.visit('https://automationexercise.com/');
-        cy.url().should('eq', 'https://automationexercise.com/');
-        cy.get('body').should('be.visible');
-    });
 
     cy.get('ul.navbar-nav li').contains('Test Cases').click();
 

@@ -32,8 +32,7 @@ it('Test Case 20: Search Products and Verify Cart After Login', () => {
     cy.verifyProductsInCart(productName);
 
     cy.deleteUserAccount();
-    cy.contains('Account Deleted!').should('be.visible');
-    cy.get('[data-qa="continue-button"]').click();
     cy.contains('Signup / Login').should('be.visible');
+
 });
 

@@ -1,6 +1,5 @@
-
-
 /// <reference types="cypress" />
+
 before(() => {
     cy.visit('https://automationexercise.com/');
     cy.url().should('eq', 'https://automationexercise.com/');

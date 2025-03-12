@@ -1,5 +1,3 @@
-
-
 /// <reference types="cypress" />
 
 it('Test Case 4: Logout User', () => {
