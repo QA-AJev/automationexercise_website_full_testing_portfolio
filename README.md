@@ -15,8 +15,6 @@ Headless Mode Execution: Optimized for CI/CD pipelines with headless browser sup
 🛠 Tech Stack
 Cypress (JavaScript) - For UI and API automation.
 
-Mocha & Chai - For assertions and test framework.
-
 Allure Reporter - For detailed test reporting and visualization.
 
 GitHub Actions - For Continuous Integration/Continuous Deployment (CI/CD) automation.
