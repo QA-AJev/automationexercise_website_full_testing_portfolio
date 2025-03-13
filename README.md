@@ -29,6 +29,7 @@ GitHub Actions - CI/CD automation
 Clone the repository:
 
 git clone https://github.com/QA-AJev/automationexercise_website_full_testing_portfolio.git
+
 cd automationexercise_website_full_testing_portfolio
 
 Install dependencies:
