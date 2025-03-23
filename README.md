@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-
-=======
 # 🧪 Cypress Automation Tests for [AutomationExercise](https://automationexercise.com/)
 
 ![Cypress](https://img.shields.io/badge/Cypress-E2E%20Testing-green?logo=cypress&logoColor=white)
@@ -86,7 +83,8 @@ automationexercise_website_full_testing_portfolio/
 ## 📸 Screenshots  
 
 Example test execution:  
-![Cypress Test Running](https://raw.githubusercontent.com/QA-AJev/automationexercise_website_full_testing_portfolio/main/assets/cypress-test.png)
+
+N/A
 
 ---
 
@@ -127,5 +125,4 @@ This project is licensed under the **MIT License**.
 
 ---
 
-🔹 **Happy Testing! 🚀**  
->>>>>>> 2f481f1 (readme.md final)
+🔹 **Happy Testing! 🚀**
