@@ -1,6 +1,4 @@
-<<<<<<< HEAD
 
-=======
 # 🧪 Cypress Automation Tests for [AutomationExercise](https://automationexercise.com/)
 
 ![Cypress](https://img.shields.io/badge/Cypress-E2E%20Testing-green?logo=cypress&logoColor=white)
@@ -128,4 +126,3 @@ This project is licensed under the **MIT License**.
 ---
 
 🔹 **Happy Testing! 🚀**  
->>>>>>> 2f481f1 (readme.md final)
